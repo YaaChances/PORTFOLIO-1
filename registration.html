@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <a class="nav-link" href="index.html">About me</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="registration.html">Registration</a>
+                <a class="nav-link" href="login.html">Login</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <table cellpadding="10">
+            <tr>
+                <td class="reg">First Name<td>
+                <td><input type="text" name="firstname" placeholder="First-Name" class="box" required></td>
+            </tr>
+            <tr>
+                <td class="reg">Last Name<td>
+                <td><input type="text" name="lastname" placeholder="Last-Name" class="box"required></td>
+            </tr>
+            <tr>
+                <td class="reg">Phone<td>
+                <td><input type="number" name="phone" placeholder="+233xxxxxxxxxx" class="box"required></td>
+            </tr>
+            <tr>
+                <td class="reg">Gender<td>
+                <td>
+                    <select name="gender" id="" class="box" required>
+                        <option value="-1">Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Prefer not to say</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="reg">Country<td>
+                <td><input type="text" name="country" placeholder="" class="box" required></td>
+            </tr>
+            <tr>
+                <td class="reg">State/Province<td>
+                <td><input type="text" name="state/province" placeholder="" class="box" required></td>
+            </tr>
+            <tr>
+                <td class="reg">Password<td>
+                <td><input type="password" name="password" placeholder="" class="box"required></td>
+            </tr>
+            <tr>
+                <td class="reg">Confirm Password<td>
+                <td><input type="password" name="confirmpassword" placeholder="" class="box"required></td>
+            </tr>
+        </table>
+        <button class="register" type="button">
+            <a href="" class="registerr">REGISTER</a>
+        </button>
+    </main>
+</body>
+</html>

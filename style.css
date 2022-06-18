@@ -1,0 +1,176 @@
+body {
+    background-color: #aaebeb;
+    color: #40514E;
+    font-family: 'Outfit', sans-serif;
+}
+
+/*.navbar {
+    background-color: #FFD369;
+}*/
+
+nav {
+    text-align: right;
+    padding: 15px;
+    margin-right: 50px;
+}
+  
+.nav-link {
+    text-decoration: none;
+    padding: 20px;
+    color:#66BFBF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.abtme {
+    margin: 50px 100px 0 250px;
+    width: 50%;
+}
+
+img {
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+}
+
+h1 {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.hobbies {
+    width: 50%;
+    margin: 80px 100px 0 250px;
+}
+
+h2 {
+    margin: 0;
+    color: #11999E;
+}
+
+li {
+    font-size: 18px;
+    list-style-type: square;
+} 
+
+.priorities {
+    width: 50%;
+    margin: 80px 100px 0 250px;
+}
+
+.skills {
+    width: 50%;
+    margin: 80px 100px 0 250px;
+}
+
+.contact {
+    background-color: #11999E;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+    margin: 50px 0 50px 600px;
+    box-sizing: border-box;
+}
+
+.contact-me {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.contact:hover {
+    background-color: #66BFBF;
+}
+
+form {
+    margin: 50px 0 0 300px;
+}
+
+.cnt {
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+label {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.submit {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #11999E;
+    border: 0;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.submit:hover {
+    background-color: #66BFBF;
+}
+
+::placeholder {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+option {
+    font-family: 'Outfit', sans-serif;
+}
+
+.reg {
+    font-size: 20px;
+}
+
+.box {
+    padding: 5px 10px;
+}
+
+.register {
+    background-color: #11999E;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0 10px 260px;
+}
+
+.register:hover {
+    background-color: #66BFBF;
+}
+
+.registerr {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+table {
+    margin: 50px 0 10px 250px;
+}
+
+.lock {
+    margin: 100px 0 10px 250px;
+}
+
+.sign-in {
+    background-color: #11999E;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin: 20px 0 10px 260px;
+}
+
+.sign-in:hover {
+    background-color: #66BFBF;
+}
+
+.signin {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
